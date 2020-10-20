@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	chunlee "go-starter/src"
 	"math"
 	"math/cmplx"
 	"math/rand"
@@ -26,6 +27,10 @@ func main() {
 
 	//named return value
 	fmt.Println(split(17))
+
+	// call function from other package
+	mul := chunlee.Multiply(2, 3)
+	fmt.Println("Multiplication:", mul)
 
 	//variable
 	var x int
