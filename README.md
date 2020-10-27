@@ -1,3 +1,5 @@
-##TODO
+## Learning golang repository
 
-- defer, panick, recover
+## Milestone
+
+- learn more defer, panick, recover
